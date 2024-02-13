@@ -1,0 +1,84 @@
+body {
+
+    background-image: url('C:/Users/tsups/Desktop/Для АЛТгту всякое/4 лабораторная/assets/images/bg.jpg');
+    background-size: cover;
+    
+}
+div.main{
+
+    position: absolute;
+    opacity: 0.7;
+    border-radius: 16px;
+    max-width: 300px;
+    height: 942px;
+    float: left;
+    align-items: center;
+    text-align:center;
+    color:black;
+    background-color:rgba(250, 191, 226, 0.3);
+    margin-left:10px;
+    position: relative
+    
+    ;
+   }
+
+div.header{
+
+    border-radius: 20px;
+    display: block;
+    width: 82%;
+    float: left;
+    align-items: center;
+    text-align: center;
+    color:black;
+    background-color:rgba(227, 253, 253, 0.2);
+    margin-left:10px;
+    position: relative;
+
+   }
+
+div.footer{
+
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 484px;
+    height: 300px;
+    float: left;
+    color:black;
+    background-color:rgba(245, 245, 245,0.2);
+    margin-top:8px;
+    margin-left:11px;
+    margin-right:8px;
+    margin-bottom:6px;
+    position: relative;
+
+   }
+
+.text{
+
+    font-weight: 200;
+    font-size: 16px;
+    position: absolute;
+    left: 240px;
+    top: 130px;
+    display: block;
+    width: 200px;
+    height: 200px; 
+
+   }
+
+   img.photo{
+
+    border-radius: 6px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    margin: auto;
+
+   }
